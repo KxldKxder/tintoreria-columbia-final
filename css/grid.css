@@ -1,0 +1,169 @@
+.container {
+    width: 95%;
+    max-width: 1500px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "nav        nav         nav         nav         nav         nav"
+        "contactus  contactus   contactus   contactus   contactus   contactus"
+        "service    service     service     service     service     service"
+        "findus     findus      findus      findus      findus      findus"
+        "footer     footer      footer      footer      footer      footer";
+}
+
+/*Navigation*/
+.nav {
+    grid-area: nav;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    padding: 10px;
+}
+
+.nav .nav-items {
+    margin: 5px;
+}
+
+.nav .nav-links {
+    display: flex;
+}
+
+/*Principal container*/
+.contactus {
+    grid-area: contactus;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.contactus .main-text-div {
+    min-width: 500px;
+    width: 50%;
+}
+
+.contactus img {
+    min-width: 200px;
+    width: 30%;
+    margin-top: 40px;
+}
+
+/*service*/
+.service {
+    grid-area: service;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.service h2 {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0px 20px 20px;
+}
+
+.service .service-hours {
+    width: auto;
+    min-width: 600px;
+    padding: 10px;
+    min-width: 600px;
+    padding: 10px;
+    width: 90%;
+}
+
+.service .service-hours h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.service .service-hours p {
+    padding-bottom: 10px;
+}
+
+.service .service-days {
+    margin: 20px 0px 20px 20px;
+    width: 90%;
+}
+
+.service .service-days-card {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 20px 20px;
+}
+
+.service .service-days-card .days-cards {
+    padding: 30px 60px 30px 60px;
+}
+
+/*findus*/
+.findus {
+    grid-area: findus;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.findus h2 {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0px 20px 20px;
+}
+
+.findus .info-findus {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.findus .info-findus .text-findus {
+    width: 40%;
+    min-width: 400px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.findus .info-findus .find-qr {
+    width: 40%;
+    margin: 30px;
+}
+
+.findus .info-findus .text-findus .btn {
+    width: 30%;
+    min-width: 140px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.findus .info-findus .find-qr {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.findus .info-findus .find-qr .qr-image {
+    width: 100%;
+    height: 70%;
+    margin: 20px 20px 0px 20px;
+}
+
+.findus .info-findus .find-qr p {
+    width: 100%;
+}
+
+/*footer*/
+.footer {
+    grid-area: footer;
+    display: flex;
+}
+
+.footer p{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}

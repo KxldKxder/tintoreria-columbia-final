@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/*Nav*/
+.nav {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.nav .nav-logo {
+    padding: 5px;
+    background: #7B8ADC;
+    /* ShadowSections */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav .nav-items {
+    text-decoration: none;
+    color: black;
+}
+
+/*Principal container*/
+.contactus {
+    background: #ffffff;
+}
+
+/*service*/
+.service {
+    background: url("/img/waves-service.png") no-repeat center center/cover;
+    background-color: #b070ec;
+
+}
+
+.service h2 {
+    color: #FFFFFF;
+}
+
+.service .service-hours {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px 6px rgba(0, 0, 0, 0.25);
+
+}
+
+.service .service-hours h3 {
+    text-align: center;
+}
+
+.service .service-hours p {
+    text-align: center;
+}
+
+.service .service-days {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.service .service-days-card {
+    /*border: solid 1px black;*/
+}
+
+.service .service-days-card .days-cards {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 30px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+/*findus*/
+.findus {
+    background: #FFFFFF;
+}
+
+.findus h2 {
+    /*border: solid 1px black;*/
+}
+
+.findus .info-findus {
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.findus .info-findus .text-findus {
+    /*border: solid 1px black;*/
+}
+
+.findus .info-findus .text-findus .btn {
+    background: #56009A;
+    box-shadow: 0px 6px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+
+.findus .info-findus .text-findus a {
+    margin: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.findus .info-findus .find-qr {
+    background: #fcfcfc;
+}
+
+.findus .info-findus .find-qr .qr-image {
+    background: #E9D4FD;
+}
+
+.findus .info-findus .find-qr p {
+    text-align: center;
+}
+
+/*footer*/
+.footer {
+    background: #FFFFFF;
+}
+
+.footer {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
